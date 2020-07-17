@@ -1,0 +1,50 @@
+*
+{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+    background-color: black;
+ 	text-align: center;
+}
+h1
+{
+	background-image: linear-gradient(to top, black, white);
+	color: white;
+	border: 1px solid black;
+	padding: 2px;
+	margin: 10px;
+}
+
+a
+{
+	color: black;
+}
+a:hover
+{
+	color: white;
+	background-color: black;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid white;
+}
+.container
+{
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid white;
+}
+
+.container-text
+{
+background-image: radial-gradient(white, purple);
+font-style: italic;
+font-size: 30px;
+color: black;
+border: 1px solid white;
+position: relative;
+
+}
