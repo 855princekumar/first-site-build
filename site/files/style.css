@@ -1,0 +1,80 @@
+*
+{
+ box-sizing: border-box;
+}
+body
+{
+ font-family: Arial;
+ background-color: #ffffff;
+ text-align: center;
+}
+
+/*header*/
+.header
+{
+ text-align: center;
+ border: 1px solid black;
+}
+.header h1
+{
+	font-size: 50px;
+}
+.row
+{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	position: relative;
+	left: 20px;
+}
+/*chicken block*/
+.t1
+{
+	border: 2px solid black;
+	background-color: lightblue;
+	color: black;
+	margin: 10px;
+	float: left;
+	width: 390px;
+	height: auto;
+}
+/*beaf block*/
+.t11
+{
+    border: 2px solid black;
+	background-color: lightblue;
+	color: black;
+	margin: 10px;
+	float: left;
+	width: 390px;
+	height: auto;
+}
+/*Sushi block*/
+.t111
+{
+    border: 2px solid black;
+	background-color: lightblue;
+	color: black;
+	margin: 10px;
+	float: left;
+	width: 390px;
+	height: auto;
+}
+/*Menu title*/
+.t2
+{
+	border: 2px solid black;
+	background-color: green;
+	text-align: center;
+	width: 100px;
+	position: relative;
+	bottom: 2px;
+	left: 288px;
+}
+/*Menu detail*/
+#t3
+{
+	clear: both;
+	padding: 5px;
+	text-align: left;
+}
