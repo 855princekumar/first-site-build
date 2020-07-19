@@ -8,12 +8,12 @@ body
 {
 	background: linear-gradient(120deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 5s ease infinite;
  	text-align: center;
     font-family: "Open Sans", "Helvetica Neue", 
     Helvetica, Arial, sans-serif;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 @keyframes gradient
 {
@@ -35,10 +35,9 @@ color: white;
 
 .header 
 {
-/*	background-image: linear-gradient(150deg, #155799, #159957);*/
-	background: linear-gradient(-120deg, #155799, #159957, #155799);
+	background: linear-gradient(120deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 3s ease infinite;
+	animation: gradient 5s ease infinite;
 	color: #fff;
 	width: auto;
 	height: 150px;	
