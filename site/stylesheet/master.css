@@ -6,10 +6,26 @@
 }
 body
 {
-    background-color: white;
+	background: linear-gradient(120deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
  	text-align: center;
     font-family: "Open Sans", "Helvetica Neue", 
     Helvetica, Arial, sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@keyframes gradient
+{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 a:visited
@@ -19,11 +35,16 @@ color: white;
 
 .header 
 {
-	background-image: linear-gradient(150deg, #155799, #159957);
+/*	background-image: linear-gradient(150deg, #155799, #159957);*/
+	background: linear-gradient(-120deg, #155799, #159957, #155799);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
 	color: #fff;
 	width: auto;
 	height: 150px;	
 	border:5px solid white;
+	position: relative;
+	top: 10px;
 }
 h1
 {
@@ -42,7 +63,7 @@ h1
 	border-left: 10px solid black;
 	border-radius: 10px;
 	position: relative;
-	margin:10px;
+	margin:20px;
 }
 
 #btn
@@ -76,5 +97,5 @@ h1
     color: white;
     background-image: linear-gradient(120deg, purple, red, purple);
     position: relative;
-    top: 250px;
+    top: 220px;
 }
