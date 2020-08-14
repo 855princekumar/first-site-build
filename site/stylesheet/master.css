@@ -4,6 +4,7 @@
 	padding: 0px;
 	margin: 0px;
 }
+a{text-decoration: none; color: white; }
 body
 {
 	background: linear-gradient(120deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -48,7 +49,7 @@ h1
 }
 #h2{opacity: 0.7;}
 
-.menu-1, .menu-2
+.menu-1, .menu-2, .menu-3
 {
 	width: 200px;
 	height: 200px;
@@ -93,4 +94,4 @@ h1
     background-image: linear-gradient(120deg, purple, red, purple);
     position: relative;
     top: 220px;
-}
+}*/*/*/
