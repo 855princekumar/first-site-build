@@ -16,9 +16,9 @@ Feel free to take a peek, provide feedback, or share insights. As a 25-year-old 
 
 ## How to Get Started 🚗
 
-1. Clone the repository to your local machine.
-   ```
-   git clone https://github.com/855princekumar/first-site-build.git
+1. Clone the `gh-pages` branch to your local machine.
+   ```bash
+   git clone -b gh-pages --single-branch https://github.com/855princekumar/first-site-build.git
    ```
 
 2. Open the `index.html` file in your preferred web browser to experience the magic.
@@ -26,4 +26,8 @@ Feel free to take a peek, provide feedback, or share insights. As a 25-year-old 
 ## Contributions Welcome! 🤝
 
 If you have suggestions, ideas, or spot any issues, don't hesitate to open an issue or submit a pull request. Let's collaborate and make this journey even more exciting.
+
+## Locating Files in Different Branch 🌿
+
+If you're looking for files specific to a branch, navigate to the "Branch" tab on GitHub. There, you can switch between branches and explore the files associated with each branch.
 
